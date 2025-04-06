@@ -1,6 +1,7 @@
-[gd_scene load_steps=11 format=4 uid="uid://bf8w6aium226s"]
+[gd_scene load_steps=12 format=4 uid="uid://bf8w6aium226s"]
 
-[ext_resource type="PackedScene" uid="uid://c4amftp6ggenm" path="res://scenes/game.tscn" id="1_cd1xg"]
+[ext_resource type="PackedScene" uid="uid://c4amftp6ggenm" path="res://scenes/world.tscn" id="1_cd1xg"]
+[ext_resource type="PackedScene" uid="uid://dg1fxhruus7lg" path="res://scenes/level_two.tscn" id="2_4p75b"]
 [ext_resource type="PackedScene" uid="uid://b74esfy7d3xq" path="res://scenes/spikes.tscn" id="2_bhu28"]
 [ext_resource type="PackedScene" uid="uid://d20wkhmq53j1d" path="res://scenes/heart.tscn" id="3_4p75b"]
 [ext_resource type="Texture2D" uid="uid://dx5gejje0qqdg" path="res://assets/tileset.png" id="4_y8ti4"]
@@ -432,6 +433,7 @@ sources/1 = SubResource("TileSetAtlasSource_036lt")
 sources/2 = SubResource("TileSetAtlasSource_nlxio")
 
 [node name="LevelOne" instance=ExtResource("1_cd1xg")]
+next_level = ExtResource("2_4p75b")
 
 [node name="Player" parent="." index="0"]
 position = Vector2(32, 112)

@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://dg1fxhruus7lg"]
 
-[ext_resource type="PackedScene" uid="uid://c4amftp6ggenm" path="res://scenes/game.tscn" id="1_dmexl"]
+[ext_resource type="PackedScene" uid="uid://c4amftp6ggenm" path="res://scenes/world.tscn" id="1_dmexl"]
 [ext_resource type="PackedScene" uid="uid://b74esfy7d3xq" path="res://scenes/spikes.tscn" id="2_8cim8"]
 [ext_resource type="PackedScene" uid="uid://d20wkhmq53j1d" path="res://scenes/heart.tscn" id="3_8lyp7"]
 
